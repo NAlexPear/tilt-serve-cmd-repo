@@ -1,0 +1,9 @@
+local_resource(
+    'example-cmd',
+    cmd='npm install'
+)
+local_resource(
+  'example-serve',
+  serve_cmd='npm run watch',
+  resource_deps=['example-cmd']
+)

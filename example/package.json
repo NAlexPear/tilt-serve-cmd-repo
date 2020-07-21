@@ -1,0 +1,14 @@
+{
+  "name": "tilt-serve-cmd-repro",
+  "version": "1.0.0",
+  "description": "A repro repro illustrating serve_cmd's wonky behavior in Tilt",
+  "main": "index.js",
+  "scripts": {
+    "watch": "parcel index.html"
+  },
+  "devDependencies": {
+    "parcel": "1.12.4"
+  },
+  "author": "Alex Pearson <alex@platter.dev>",
+  "license": "MIT"
+}
